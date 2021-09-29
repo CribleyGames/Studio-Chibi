@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #ffff;
+	letter-spacing: 2px;
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.text {
+	font-size: 30px;
+	padding-left: 20px;
+}
+.image {
+	padding-left: 10px;
+}
+.text2 {
+	font-size:100px;
+	text-align: center;
