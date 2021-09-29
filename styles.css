@@ -28,41 +28,43 @@ body {
 	text-align: center;
 }
 
+.text3 {
+}
 .sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #35383E;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #35383E;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+	padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
 }
 
 .sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  font-size: 36px;
+   position: absolute;
+   top: 0;
+   font-size: 36px;
 }
 
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  padding: 10px 15px;
-  border: none;
-  background-color: transparent;
-  color: white;
+   font-size: 20px;
+   cursor: pointer;
+   padding: 10px 15px;
+   border: none;
+   background-color: transparent;
+   color: white;
 }
 
 .openbtn:hover {
@@ -70,11 +72,11 @@ body {
 }
 
 #main {
-  transition: margin-left .5s;
-  padding: 20px;
+   transition: margin-left .5s;
+   padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+	.sidebar {padding-top: 15px;}
+   .sidebar a {font-size: 18px;}
 }
