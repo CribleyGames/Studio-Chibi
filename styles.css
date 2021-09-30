@@ -40,6 +40,19 @@ body {
 	padding-bottom:20px;
 	letter-spacing: 0px;
 	font-size: 20px;
+	text-align: center;
+}
+
+.text4 {
+	color: black; 
+	background-color: #ffff; 
+	font-family: "Lato", sans-serif; 
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	letter-spacing: 0px;
+	font-size: 20px;
 }
 
 .credits {
