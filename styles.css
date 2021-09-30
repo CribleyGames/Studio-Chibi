@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #ffff;
 	letter-spacing: 2px;
-	background-image: url("bg1.jpg");
+	background-image: url("images/bg1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -24,12 +25,25 @@ body {
 }
 
 .text2 {
-	font-size:100px;
+	font-size: 100px;
 	text-align: center;
+	margin-top: 150px;
 }
 
 .text3 {
+	color: white; 
+	background-color: #1e6c93; 
+	font-family: "Lato", sans-serif; 
+	padding: 50px;
 }
+
+.text4 {
+	color: black; 
+	background-color: #ffff; 
+	font-family: "Lato", sans-serif; 
+	padding: 50px;
+}
+
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -45,6 +59,7 @@ body {
 
 .sidebar a {
 	padding: 8px 8px 8px 32px;
+	font-family: "Lato", sans-serif; 
    text-decoration: none;
    font-size: 25px;
    color: #818181;
