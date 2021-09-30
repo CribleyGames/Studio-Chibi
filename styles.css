@@ -55,12 +55,12 @@ body {
 	left: 0;
 	background-color: #35383E;
 	overflow-x: hidden;
-	padding-top: 60px;
+	padding-top: 90px;
 	transition: 0.5s;
 }
 
 .sidebar a {
-	padding: 8px 8px 8px 32px;
+	padding: 8px 8px 8px 36px;
 	font-family: "Lato", sans-serif; 
    text-decoration: none;
    font-size: 25px;
@@ -72,11 +72,13 @@ body {
 .sidebar .closebtn {
    position: absolute;
    top: 0;
-   font-size: 36px;
+   font-size: 45px;
+	padding-top: 27px;
+	padding-left: 30px;
 }
 
 .openbtn {
-   font-size: 20px;
+   font-size: 35px;
    cursor: pointer;
    padding: 10px 15px;
    border: none;
