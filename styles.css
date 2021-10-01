@@ -61,7 +61,7 @@ body {
 .image3 {
 	text-align:center;
 }
-	
+
 .credits {
 	color: white;
 	background-color: #1e6c93;
@@ -90,28 +90,28 @@ body {
 .sidebar a {
 	padding: 8px 8px 8px 27px;
 	font-family: "Lato", sans-serif; 
-   text-decoration: none;
-   font-size: 25px;
-   color: #818181;
-   display: block;
-   transition: 0.3s;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
 }
 
 .sidebar .closebtn {
-   position: absolute;
-   top: 0;
-   font-size: 45px;
+	position: absolute;
+	top: 0;
+	font-size: 45px;
 	padding-top: 27px;
 	padding-left: 27px;
 }
 
 .openbtn {
-   font-size: 35px;
-   cursor: pointer;
-   padding: 10px 15px;
-   border: none;
-   background-color: transparent;
-   color: white;
+	font-size: 35px;
+	cursor: pointer;
+	padding: 10px 15px;
+	border: none;
+	background-color: transparent;
+	color: white;
 }
 
 .openbtn:hover {
@@ -119,11 +119,11 @@ body {
 }
 
 #main {
-   transition: margin-left .5s;
-   padding: 20px;
+	transition: margin-left .5s;
+	padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
 	.sidebar {padding-top: 15px;}
-   .sidebar a {font-size: 18px;}
+	.sidebar a {font-size: 18px;}
 }
