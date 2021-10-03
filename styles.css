@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 body {
 	font-family: "Open Sans", sans-serif;
+	transition: background-color .5s;
 	color: #ffff;
 	letter-spacing: 2px;
 	background-image: url("images/bg.jpg");
@@ -74,7 +75,7 @@ body {
 	font-size: 15px;
 }
 
-.sidebar {
+.sidenav {
 	height: 100%;
 	width: 0;
 	position: fixed;
@@ -83,13 +84,12 @@ body {
 	left: 0;
 	background-color: #35383E;
 	overflow-x: hidden;
-	padding-top: 75px;
 	transition: 0.5s;
+	padding-top: 10px;
 }
 
-.sidebar a {
-	padding: 8px 8px 8px 27px;
-	font-family: "Lato", sans-serif; 
+.sidenav a {
+	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
 	color: #818181;
@@ -97,18 +97,14 @@ body {
 	transition: 0.3s;
 }
 
-.sidebar .closebtn {
-	position: absolute;
-	top: 0;
-	font-size: 45px;
-	padding-top: 27px;
-	padding-left: 27px;
+.sidenav a:hover {
+	color: #f1f1f1;
 }
 
 .openbtn {
 	font-size: 35px;
 	cursor: pointer;
-	padding: 10px 15px;
+	padding: 10px 23px;
 	border: none;
 	background-color: transparent;
 	color: white;
@@ -118,12 +114,11 @@ body {
 	color:grey
 }
 
-#main {
-	transition: margin-left .5s;
-	padding: 20px;
+.sidenav .closebtn {
+	font-size: 50px;
 }
 
 @media screen and (max-height: 450px) {
-	.sidebar {padding-top: 15px;}
-	.sidebar a {font-size: 18px;}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
 }
