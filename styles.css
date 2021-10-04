@@ -6,6 +6,10 @@ html {
 }
 .text {
   text-align: center;
+		padding-left: 50px;
+	padding-right: 50px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 .credits {
   color: white;
@@ -19,16 +23,9 @@ html {
   font-size: 0.9375em;
   text-align: center;
 }
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.text2 { 
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
