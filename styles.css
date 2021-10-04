@@ -6,10 +6,10 @@ html {
 }
 .text {
   text-align: center;
-		padding-left: 50px;
-	padding-right: 50px;
-	padding-top:20px;
-	padding-bottom:20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .credits {
   color: white;
@@ -23,9 +23,9 @@ html {
   font-size: 0.9375em;
   text-align: center;
 }
-.text2 { 
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top:20px;
-	padding-bottom:20px;
+.text2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
