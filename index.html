@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
     .collapsible {
       background-color: #1E6C93;
       color: white;
@@ -35,6 +37,7 @@
     }
 
     .content {
+      font-family: "Lato", sans-serif;
       padding: 0 18px;
       max-height: 0;
       overflow: hidden;
@@ -46,9 +49,9 @@
 
 <body>
   <div class="w3-top">
-    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card" style="font-family: Lato, sans-serif; letter-spacing:0.0625em">
       <a class="w3-bar-item">Studio Chibi</a>
-      <div class="w3-right w3-hide-small">
+      <div class="w3-right w3-hide-small" style="font-family: Lato, sans-serif; letter-spacing:0.0625em">
         <a href="#home" class="w3-bar-item w3-button">Home</a>
         <a href="#news" class="w3-bar-item w3-button">News</a>
         <a href="#join" class="w3-bar-item w3-button">How to Join</a>
@@ -58,10 +61,13 @@
   </div>
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
     <img class="w3-image" src="images/bg.jpg" alt="bg" width="100%" height="100%">
+    <div style="font-family: Lato, sans-serif; letter-spacing:0em" class="w3-display-middle w3-margin-top w3-center">
+      <h1 style="font-size:4em" class="w3-text-white">Studio Chibi</h1>
+    </div>
   </header>
   <div class="text">
     <div class="w3-content w3-padding" style="max-width:1564px">
-      <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="color:#1e6c93">What is Studio Chibi?</h1>
+      <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="color:#1e6c93">Welcome to Studio Chibi</h1>
       <p>Studio Chibi is a group of some of the largest content creators in the Sky: Children of the Light Community. Set up by British Sky Youtuber XK Generations, he has managed to get in contact with some of the largest content creators in the community. Some of the orginisations most known projects have been the Sky Youtube community rewind which has been given attention by ThatGameCompany, the makers of Sky, Journey and Flower.</p>
       <p>The aim of Studio Chibi is to bring all parts of life from the Sky community together and celebrate the culture of the community of Sky and ThatGameCompany. This is why most of the members of Studio Chibi has been from many backgrounds of the Sky community. Including meme creators (Crafting Kitten and Emptea), tutorial experts (BluSky and ThySkyGuy), speedrunners (Aztcc and Cribley), and Sky update experts (Toyz and JaneSky).</p>
       <p>All of these content creators have been found from all across the world. From America to Indonesia and many more. Studio Chibi is a worldwide known organisation with its aim to inspire content creators and players from around the world.</p>
@@ -96,8 +102,8 @@
   <hr id="news">
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
     <img class="w3-image" src="images/bg.jpg" alt="bg" width="100%" height="100%">
-    <div class="w3-display-middle w3-margin-top w3-center">
-      <h1 style="font-size:4em" class="w3-text-white">Studio Chibi News</h1>
+    <div style="font-family: Lato, sans-serif; letter-spacing:0em" class="w3-display-middle w3-margin-top w3-center">
+      <h1 style="font-size:4em" class="w3-text-white">News</h1>
     </div>
   </header>
   <div class="text">
@@ -136,9 +142,8 @@
   <hr id="join">
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
     <img class="w3-image" src="images/bg.jpg" alt="bg" width="100%" height="100%">
-    <div class="w3-display-middle w3-margin-top w3-center">
-      <br>
-      <h1 style="font-size:4em" class="w3-text-white">How to join</h1>
+    <div style="font-family: Lato, sans-serif; letter-spacing:0em" class="w3-display-middle w3-margin-top w3-center">
+      <h1 style="font-size:4em" class="w3-text-white">How to Join</h1>
     </div>
   </header>
   <div class="text">
@@ -147,6 +152,8 @@
     <hr>
     <h3 style="color:#1e6c93">We are currently open for Applications!</h3>
     <p>We are currently open for applications for certain roles for people to volenteer into the Studio Chibi!</p>
+  </div>
+  <div class="text2">
     <button class="collapsible">
       <h3>Featured Youtuber</h3>
     </button>
@@ -171,8 +178,8 @@
     </button>
     <div class="content">
       <p>We are currently looking for artists to design original art for Studio Chibi to be added onto thumbnails. The requirements are:</p>
-      <p>&bull;You must show some of your <u>Original</u> artworks.</p>
-      <p>&bull;Preferably it would be nice to show some Sky art as well.</p>
+      <p>&bull; You must show some of your <u>Original</u> artworks.</p>
+      <p>&bull; Preferably it would be nice to show some Sky art as well.</p>
       <p>&bull; Has Creative ideas about what to draw.</p>
     </div>
     <button class="collapsible">
@@ -185,20 +192,20 @@
       <p>&bull; Can convert images and artworks into PNG's easily.</p>
       <p>&bull; If you are considering of being a thumbnail artist, you may be asked to also make promotional posters to be shared throughout the community as well.</p>
     </div>
-    <hr>
+  </div>
+  <br>
+  <div class="text">
     <h3 style="text-align:center; color:#1e6c93">Application Forms</h3>
     <p>If you are interested in any of these roles in the community, you can <a href="https://forms.gle/6Vxhr34igpTdf7GU7" style="color:#1e6c93" target="blank">click here to apply!</a></p>
   </div>
   <hr id="crew">
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
     <img class="w3-image" src="images/bg.jpg" alt="bg" width="100%" height="100%">
-    <div class="w3-display-middle w3-margin-top w3-center">
+    <div style="font-family: Lato, sans-serif; letter-spacing:0em" class="w3-display-middle w3-margin-top w3-center">
       <h1 style="font-size:4em" class="w3-text-white">Meet the Crew</h1>
     </div>
   </header>
   <div class="text2">
-    <br>
-    <h1 style="text-align:center; color:#1e6c93">Meet the Studio Chibi Crew!</h1>
     <hr>
     <p style="text-align:center">Studio Chibi Currently consists of 15 members. All are from different backgrounds of the sky community and from different parts of the world. From the UK to Australia! From meme lords to Tutorial specialists, they are all some of the largest influencers in the community.</p>
     <br>
