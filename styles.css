@@ -18,11 +18,10 @@ html {
   color: white;
   background-color: #1e6c93;
   font-family: "Lato", sans-serif;
-  padding-left: 3.125em;
-  padding-right: 3.125em;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
-  letter-spacing: 0em;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.9375em;
   text-align: center;
 }
@@ -32,4 +31,38 @@ html {
   padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.collapsible {
+  background-color: #1e6c93;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #35383e;
+  color: white;
+}
+
+.collapsible:after {
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.content {
+  font-family: "Lato", sans-serif;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: #f1f1f1;
 }
