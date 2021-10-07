@@ -18,10 +18,8 @@ html {
   color: white;
   background-color: #1e6c93;
   font-family: "Lato", sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 3%;
+  padding-bottom: 1%;
   font-size: 0.9375em;
   text-align: center;
 }
@@ -65,4 +63,32 @@ html {
   overflow: hidden;
   transition: max-height 0.5s ease-out;
   background-color: #f1f1f1;
+}
+.t1 {
+  font-family: Lato, sans-serif;
+  letter-spacing: 0.0625em;
+}
+.title {
+  color: #1e6c93;
+}
+.link {
+  color: #1e6c93;
+}
+.img1 {
+  padding-left: 40px;
+}
+.subtxt {
+  color: grey;
+}
+.animate-opacity {
+  animation: opac 0.3s;
+  animation-timing-function: ease-in;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
