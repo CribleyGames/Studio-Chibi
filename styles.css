@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .text {
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -14,6 +15,7 @@ html {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .credits {
   color: white;
   background-color: #1e6c93;
@@ -23,6 +25,7 @@ html {
   font-size: 0.9375em;
   text-align: center;
 }
+
 .text2 {
   font-family: "Lato", sans-serif;
   padding-left: 50px;
@@ -43,8 +46,7 @@ html {
   font-size: 15px;
 }
 
-.active,
-.collapsible:hover {
+.active, .collapsible:hover {
   background-color: #35383e;
   color: white;
 }
@@ -64,26 +66,33 @@ html {
   transition: max-height 0.5s ease-out;
   background-color: #f1f1f1;
 }
+
 .t1 {
   font-family: Lato, sans-serif;
   letter-spacing: 0.0625em;
 }
+
 .title {
   color: #1e6c93;
 }
+
 .link {
   color: #1e6c93;
 }
+
 .img1 {
   padding-left: 40px;
 }
+
 .subtxt {
   color: grey;
 }
+
 .animate-opacity {
   animation: opac 0.3s;
   animation-timing-function: ease-in;
 }
+
 @keyframes opac {
   from {
     opacity: 0;
@@ -91,4 +100,28 @@ html {
   to {
     opacity: 1;
   }
+}
+
+.topnav {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: #1e6c93;
 }
