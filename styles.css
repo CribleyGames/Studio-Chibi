@@ -10,10 +10,7 @@ html {
 .text {
   font-family: "Lato", sans-serif;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 1%;
 }
 
 .credits {
@@ -28,10 +25,7 @@ html {
 
 .text2 {
   font-family: "Lato", sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 1%;
 }
 
 .collapsible {
