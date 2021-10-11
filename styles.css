@@ -10,7 +10,8 @@ html {
 .text {
 	font-family: "Lato", sans-serif;
 	text-align: center;
-	padding: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .l2 {
@@ -113,7 +114,8 @@ html {
 
 .text2 {
 	font-family: "Lato", sans-serif;
-	padding: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .collapsible {
@@ -282,7 +284,11 @@ html {
 }
 
 .h-640 {
-	width: 30rem;
+	width: 20rem;
+}
+
+.w-640 {
+	height:20rem;
 }
 
 .ml-5 {
