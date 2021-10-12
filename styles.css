@@ -22,6 +22,16 @@ html {
 	justify-content: center;
 }
 
+@keyframes animatezoom {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
 .footer[data-v-353554d2] {
 	position: relative;
 	z-index: 20;
