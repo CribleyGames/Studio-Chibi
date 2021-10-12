@@ -240,6 +240,10 @@ html {
 	}
 }
 
+.ml-5 {
+	margin-left: 0.313;
+}
+
 .pt-20 {
 	padding-top: 5rem;
 }
@@ -252,11 +256,20 @@ html {
 	padding-bottom: 2.5rem;
 }
 
-.block {
-	display: block;
-}
 .h-10 {
 	height: 2.5rem;
+}
+
+.h-320 {
+	width: 20rem;
+}
+
+.w-320 {
+	height:20rem;
+}
+
+.block {
+	display: block;
 }
 
 .sr-only {
@@ -319,18 +332,6 @@ html {
 	.container {
 		max-width: 1536px;
 	}
-}
-
-.h-320 {
-	width: 20rem;
-}
-
-.w-320 {
-	height:20rem;
-}
-
-.ml-5 {
-	margin-left: 0.313;
 }
 
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
