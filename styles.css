@@ -11,8 +11,8 @@ html {
 .text {
 	font-family: "Lato", sans-serif;
 	text-align: center;
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .l2 {
@@ -126,8 +126,8 @@ html {
 
 .text2 {
 	font-family: "Lato", sans-serif;
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .collapsible:not(:first-child):before {
@@ -167,7 +167,7 @@ html {
 	z-index: 0;
 	--tw-bg-opacity: 1;
 	background-color: rgba(30, 108, 147, var(--tw-bg-opacity));
-	top: -7.5px;
+	top: -8px;
 	left: -5px;
 	transform: scaleY(0);
 	transform-origin: center;
@@ -269,6 +269,10 @@ html {
 
 .pt-5 {
 	padding-top: 1.25rem;
+}
+
+.pt-10 {
+	padding-top: 2.5rem;
 }
 
 .pb-10 {
