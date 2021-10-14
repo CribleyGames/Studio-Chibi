@@ -259,11 +259,9 @@ html {
 
 @media (max-width: 766px) {
   .mobile1 {
-    height: 80% !important;
-	 width: 80% !important;
+    height: 15rem !important;
   }
 }
-
 
 .ml-5 {
   margin-left: 0.313;
@@ -294,12 +292,17 @@ html {
   height: 2.5rem;
 }
 
-.h-320 {
-  width: 40%;
-  height: 40%;
+.h-480 {
+  width: 30rem;
 }
 
+.h-640 {
+  width: 40rem;
+}
 
+.h-320 {
+	height: 20rem;
+}
 
 .block {
   display: block;
@@ -331,40 +334,6 @@ html {
 
 .justify-center {
   justify-content: center;
-}
-
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
 }
 
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
