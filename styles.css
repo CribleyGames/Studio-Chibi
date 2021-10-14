@@ -257,6 +257,14 @@ html {
   }
 }
 
+@media (max-width: 766px) {
+  .mobile1 {
+    height: 60% !important;
+	 width: 60% !important;
+  }
+}
+
+
 .ml-5 {
   margin-left: 0.313;
 }
@@ -287,12 +295,11 @@ html {
 }
 
 .h-320 {
-  width: 20rem;
+  width: 40%;
+  height: 40%;
 }
 
-.w-320 {
-  height: 20rem;
-}
+
 
 .block {
   display: block;
