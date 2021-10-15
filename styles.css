@@ -258,6 +258,12 @@ html {
   }
 }
 
+@media (max-width: 1000px) {
+  .mobile2 {
+    height: 10rem !important;
+  }
+}
+
 .ml-5 {
   margin-left: 0.313;
 }
