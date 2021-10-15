@@ -189,12 +189,6 @@ html {
 	}
 }
 
-.text2 {
-	font-family: "Lato", sans-serif;
-	padding-left: 3%;
-	padding-right: 3%;
-}
-
 .content {
 	font-family: "Lato", sans-serif;
 	padding: 0px 18px;
@@ -297,7 +291,7 @@ html {
 
 @media (max-width: 1000px) {
 	.mobile2 {
-		height: 10rem !important;
+		height: 9.5rem !important;
 	}
 }
 
