@@ -40,19 +40,6 @@ html {
 	position: relative;
 }
 
-.footer .container[data-v-353554d2]:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	background: #d3d3d3;
-	height: 1px;
-	width: 100%;
-	-webkit-mask-image: linear-gradient(90deg, transparent 0, #000 0%, #000 100%, transparent);
-	mask-image: linear-gradient(90deg, transparent 0, #000 100%, #000 0%, transparent);
-}
-
 .footer .signoff-links[data-v-353554d2] {
 	margin-top: 0.75rem;
 	display: flex;
