@@ -107,6 +107,10 @@ html {
 	}
 }
 
+.link:hover {
+	text-decoration: none
+}
+
 .text2 {
 	font-family: "Lato", sans-serif;
 }
