@@ -259,7 +259,7 @@ html {
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 1023px) {
   .hide1 {
     display: none !important;
   }
