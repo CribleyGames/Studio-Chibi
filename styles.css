@@ -290,16 +290,10 @@ html {
   }
 }
 
-@media (max-width: 1000px) {
-  .mobile1 {
-    width: 15rem !important;
-  }
-}
-
-@media (max-width: 1000px) {
-  .mobile2 {
-    height: 9.5rem !important;
-  }
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
 
 .ml-5 {
@@ -329,22 +323,6 @@ html {
 .prl-5 {
   padding-right: 5%;
   padding-left: 5%;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-480 {
-  width: 30rem;
-}
-
-.h-640 {
-  width: 40rem;
-}
-
-.h-320 {
-  height: 20rem;
 }
 
 .block {
