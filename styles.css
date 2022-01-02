@@ -325,6 +325,11 @@ html {
   padding-left: 5%;
 }
 
+.prl-20 {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
 .block {
   display: block;
 }
