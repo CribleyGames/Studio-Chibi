@@ -227,7 +227,7 @@ html {
 }
 
 .animate-opacity {
-  animation: opac 0.2s;
+  animation: opac 0.3s;
   animation-timing-function: ease-in;
 }
 
