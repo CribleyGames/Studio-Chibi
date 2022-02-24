@@ -234,6 +234,8 @@ html {
 .container {
   width: 100%;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media (min-width: 640px) {
@@ -333,6 +335,11 @@ html {
 .prl-5 {
   padding-right: 5%;
   padding-left: 5%;
+}
+
+.prl-10 {
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .block {
